@@ -1,4 +1,32 @@
-#!/usr/bin/env python3
+
+__version__ = "1.0.0"
+__status__ = "beta"
+__date__ = "2025-08-21"
+__author__ = "NSUBB (aka DesignWeaver3D)"
+
+"""
+SketchReProfile Macro for FreeCAD
+
+Version: 1.0.0
+Status: beta
+Author: NSUBB (aka DesignWeaver3D)
+License: GNU GPL v3.0
+GitHub: https://github.com/NSUBB
+Reddit: u/DesignWeaver3D
+
+This macro converts mesh-derived sketches to clean reconstructed geometry:
+automatically detects and creates circles, arcs, B-splines from tessellated construction lines.
+"""
+
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+# License: GNU General Public License v3.0
+# This macro is free software: you can redistribute it and/or modify
+# it under the terms of the GNU GPL as published by the Free Software Foundation,
+# either version 3 of the License, or (at your option) any later version.
+# See https://www.gnu.org/licenses/gpl-3.0.html for details.
+
+
 import FreeCAD as App
 import FreeCADGui as Gui
 import Part, Sketcher
